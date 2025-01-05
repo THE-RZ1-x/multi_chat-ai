@@ -1,41 +1,56 @@
-# Windsurf - Multi-AI Chat Interface
+# Multi AI Chat
 
-A modern web application for interacting with various AI language models through a unified interface.
+A versatile chat application that supports multiple AI providers including OpenAI, Google Gemini, and more. Try it live at: https://the-rz1-x.github.io/multi_chat-ai/
 
 ## Features
 
-- Support for multiple AI models (Gemini, GPT-4, DeepSeek, etc.)
-- Clean and intuitive chat interface
-- Model-specific settings (temperature, max tokens, etc.)
-- Dark/Light mode support
-- Code syntax highlighting
-- Markdown rendering for AI responses
+- 🤖 Multiple AI Providers Support:
+  - OpenAI (GPT-3.5, GPT-4)
+  - Google Gemini
+  - Hugging Face
+  - DeepSeek
+  - Ollama (local)
+  - OpenRouter
+- 🎨 Beautiful Material UI Design
+- 🌓 Dark/Light Mode
+- 📸 Image Support for Vision Models
+- ⚙️ Customizable Settings
 
-## Setup
+## How to Use
 
-1. Install dependencies:
+1. Visit: https://the-rz1-x.github.io/multi_chat-ai/
+2. Click the Settings icon (⚙️)
+3. Choose your AI provider
+4. Enter your API key
+5. Start chatting!
+
+### Getting API Keys
+
+- **OpenAI**: Get your API key from [OpenAI Platform](https://platform.openai.com/api-keys)
+- **Google Gemini**: Get your API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+- **Hugging Face**: Get your API key from [Hugging Face](https://huggingface.co/settings/tokens)
+- **Ollama**: No API key needed, but requires [local installation](https://ollama.ai/)
+
+## Development
+
+To run this project locally:
+
+1. Clone the repository
+```bash
+git clone https://github.com/THE-RZ1-x/multi_chat-ai.git
+cd multi_chat-ai
+```
+
+2. Install dependencies
 ```bash
 npm install
 ```
 
-2. Start the development server:
+3. Start the development server
 ```bash
 npm start
 ```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser
+## Security Note
 
-## Usage
-
-1. Select an AI model from the settings panel
-2. Enter your API key for the selected model
-3. Adjust model parameters as needed (temperature, max tokens)
-4. Start chatting!
-
-## Developer
-
-Developed by SALAH-EDDINE RHAZOUANE
-
-## License
-
-MIT
+⚠️ Never commit your API keys to GitHub. Always enter them through the settings panel in the app.

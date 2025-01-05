@@ -17,13 +17,14 @@
     "react-syntax-highlighter": "^15.5.0"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.3.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "set NODE_OPTIONS=--openssl-legacy-provider && npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
