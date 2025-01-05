@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/multi_chat-ai/static/css/main.1ede73bd.css",
+    "main.js": "/multi_chat-ai/static/js/main.e4456762.js",
+    "index.html": "/multi_chat-ai/index.html",
+    "main.1ede73bd.css.map": "/multi_chat-ai/static/css/main.1ede73bd.css.map",
+    "main.e4456762.js.map": "/multi_chat-ai/static/js/main.e4456762.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ede73bd.css",
+    "static/js/main.e4456762.js"
+  ]
+}
